@@ -17,3 +17,12 @@
     background-color: aquamarine;
     justify-content: center;
 }
+.box:nth-child(1){
+    background-color: blue;
+}
+.box:nth-child(2){
+    background-color:coral;
+}
+.box:nth-child(2){
+    background-color:mediumpurple;
+}
