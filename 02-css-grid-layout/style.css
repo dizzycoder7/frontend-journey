@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+     box-sizing: border-box;
+    
+    
+}
+body{
+    height:100vh;
+   
+}
+
+.container{
+    display:grid;
+    
+    grid-template-columns:200px 1fr;
+    grid-template-rows:80px auto 60px;
+    gap:10px;
+    height:100%;
+   
+}
+header{
+      grid-column:1/3;
+     background-color: coral;
+}
+
+aside{
+    background-color:lightblue;
+}
+main{
+    background-color: lightyellow;
+}
+footer{
+    grid-column:1/3;
+    background-color: lightgreen;
+}
+
+header,footer,aside,main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
