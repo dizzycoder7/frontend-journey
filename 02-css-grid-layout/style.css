@@ -3,16 +3,13 @@
     padding:0;
      box-sizing: border-box;
     
-    
 }
 body{
     height:100vh;
-   
 }
 
 .container{
     display:grid;
-    
     grid-template-columns:200px 1fr;
     grid-template-rows:80px auto 60px;
     gap:10px;
