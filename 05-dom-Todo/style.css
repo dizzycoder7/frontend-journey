@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     height:100vh;
+     margin:0;
+
+}
+#textInput{
+    height: 50px;
+}
+#container{
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: auto 80px;
+    padding: 2rem;
+    height: 400px;
+    width:300px;
+    border: 2px solid black;
+}
+button{
+    height:50px;
+    width: 100%; 
+}
+.list{
+    grid-column:1/3;
+}
+.done {
+    text-decoration: line-through;
+    color: #aaa;
+}
