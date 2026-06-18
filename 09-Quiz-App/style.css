@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#container{
+    display:grid;
+    grid-template-rows:30px auto 20px 30px 20px;
+    min-width: 300px;
+    min-height: 300px;
+    border: 1px solid black;
+
+}
+li{
+    padding: 0.4rem;
+    text-decoration: none;
+}
+
+.question-box{
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.options{
+    margin:0;
+    padding-left:4px;
+    list-style-position: inside;
+}
+
+#score{
+    border: 0.8px solid black;
+}
